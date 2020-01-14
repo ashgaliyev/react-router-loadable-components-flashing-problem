@@ -8,7 +8,7 @@ Steps to reproduce:
 1. Download repository
 
 ```bash
-git clone https://github.com/gregberge/loadable-components.git
+git clone https://github.com/ashgaliyev/react-router-loadable-components-flashing-problem
 ```
 
 2. install project dependencies
