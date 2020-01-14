@@ -1,0 +1,1 @@
+exports.ids=[1],exports.modules={5:function(t,s,e){"use strict";e.r(s);var o=e(10);const n=()=>"B";n.moment=e.n(o).a,s.default=n}};

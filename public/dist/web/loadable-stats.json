@@ -1,0 +1,209 @@
+{
+  "errors": [],
+  "warnings": [
+    "./node_modules/React/cjs/react.development.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/React/cjs/react.development.js\n    Used by 1 module(s), i. e.\n    /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/React/index.js\n* /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/react/cjs/react.development.js\n    Used by 1 module(s), i. e.\n    /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/react/index.js\n @ ./node_modules/React/cjs/react.development.js\n @ ./node_modules/React/index.js\n @ ./src/client/pages/Users.js\n @ ./src/client/App.js\n @ ./src/client/main-web.js",
+    "./node_modules/React/index.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/React/index.js\n    Used by 6 module(s), i. e.\n    /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/babel-loader/lib/index.js??ref--4!/Users/andreyash/vendor/loadable-components/examples/server-side-rendering/src/client/pages/Users.js\n* /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/react/index.js\n    Used by 71 module(s), i. e.\n    /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/babel-loader/lib/index.js??ref--4!/Users/andreyash/vendor/loadable-components/examples/server-side-rendering/src/client/main-web.js\n @ ./node_modules/React/index.js\n @ ./src/client/pages/Users.js\n @ ./src/client/App.js\n @ ./src/client/main-web.js"
+  ],
+  "version": "4.41.5",
+  "hash": "f0e124aca29177868e94",
+  "publicPath": "/dist/web/",
+  "outputPath": "/Users/andreyash/vendor/loadable-components/examples/server-side-rendering/public/dist/web",
+  "assetsByChunkName": {
+    "About": "About.js",
+    "Home": "Home.js",
+    "Users": "Users.js",
+    "main": [
+      "main.css",
+      "main.js"
+    ],
+    "vendors~About~Home~Users": "vendors~About~Home~Users.js"
+  },
+  "assets": [
+    {
+      "name": "About.js",
+      "size": 960,
+      "chunks": [
+        "About"
+      ],
+      "chunkNames": [
+        "About"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "Home.js",
+      "size": 953,
+      "chunks": [
+        "Home"
+      ],
+      "chunkNames": [
+        "Home"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "Users.js",
+      "size": 960,
+      "chunks": [
+        "Users"
+      ],
+      "chunkNames": [
+        "Users"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main.css",
+      "size": 16,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main.js",
+      "size": 2207670,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "vendors~About~Home~Users.js",
+      "size": 77974,
+      "chunks": [
+        "vendors~About~Home~Users"
+      ],
+      "chunkNames": [
+        "vendors~About~Home~Users"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.css",
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.css",
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "About": {
+      "chunks": [
+        "vendors~About~Home~Users",
+        "About"
+      ],
+      "assets": [
+        "vendors~About~Home~Users.js",
+        "About.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Home": {
+      "chunks": [
+        "vendors~About~Home~Users",
+        "Home"
+      ],
+      "assets": [
+        "vendors~About~Home~Users.js",
+        "Home.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Users": {
+      "chunks": [
+        "vendors~About~Home~Users",
+        "Users"
+      ],
+      "assets": [
+        "vendors~About~Home~Users.js",
+        "Users.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/dist/web/",
+      "outputPath": "/Users/andreyash/vendor/loadable-components/examples/server-side-rendering/public/dist/web",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!src/client/main.css"
+    }
+  ]
+}

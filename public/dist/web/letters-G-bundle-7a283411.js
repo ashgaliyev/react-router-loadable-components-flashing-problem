@@ -1,0 +1,1 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[7],{46:function(_,n,a){"use strict";a.r(n);var e=a(9),r=a.n(e);n.default=function(_){var n=_.prefix;return r.a.createElement("span",{className:"my-cool-class"},n," ","- G")}}}]);

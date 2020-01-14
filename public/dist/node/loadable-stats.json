@@ -1,0 +1,206 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.41.5",
+  "hash": "6c9371271474e7db8f8c",
+  "publicPath": "/dist/node/",
+  "outputPath": "/Users/andreyash/vendor/loadable-components/examples/server-side-rendering/public/dist/node",
+  "assetsByChunkName": {
+    "About": "About.js",
+    "Home": "Home.js",
+    "Users": "Users.js",
+    "main": [
+      "main.css",
+      "main.js"
+    ],
+    "vendors~About~Home~Users": "vendors~About~Home~Users.js"
+  },
+  "assets": [
+    {
+      "name": "About.js",
+      "size": 880,
+      "chunks": [
+        "About"
+      ],
+      "chunkNames": [
+        "About"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "Home.js",
+      "size": 873,
+      "chunks": [
+        "Home"
+      ],
+      "chunkNames": [
+        "Home"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "Users.js",
+      "size": 880,
+      "chunks": [
+        "Users"
+      ],
+      "chunkNames": [
+        "Users"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main.css",
+      "size": 16,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main.js",
+      "size": 14696,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "vendors~About~Home~Users.js",
+      "size": 77874,
+      "chunks": [
+        "vendors~About~Home~Users"
+      ],
+      "chunkNames": [
+        "vendors~About~Home~Users"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.css",
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.css",
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "About": {
+      "chunks": [
+        "vendors~About~Home~Users",
+        "About"
+      ],
+      "assets": [
+        "vendors~About~Home~Users.js",
+        "About.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Home": {
+      "chunks": [
+        "vendors~About~Home~Users",
+        "Home"
+      ],
+      "assets": [
+        "vendors~About~Home~Users.js",
+        "Home.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Users": {
+      "chunks": [
+        "vendors~About~Home~Users",
+        "Users"
+      ],
+      "assets": [
+        "vendors~About~Home~Users.js",
+        "Users.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/dist/node/",
+      "outputPath": "/Users/andreyash/vendor/loadable-components/examples/server-side-rendering/public/dist/node",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!src/client/main.css"
+    }
+  ]
+}

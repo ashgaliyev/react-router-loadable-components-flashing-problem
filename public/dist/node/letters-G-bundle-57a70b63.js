@@ -1,0 +1,1 @@
+exports.ids=[6],exports.modules={2:function(e,s,a){"use strict";a.r(s);var t=a(0),r=a.n(t);s.default=({prefix:e})=>r.a.createElement("span",{className:"my-cool-class"},e," ","- G")}};
