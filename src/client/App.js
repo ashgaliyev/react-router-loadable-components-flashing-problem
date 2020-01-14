@@ -3,9 +3,9 @@ import loadable from '@loadable/component'
 import './main.css'
 import { Switch, Route, Link } from 'react-router-dom'
 
-const About = loadable(() => import(/* webpackChunkName: 'About' */ './pages/About'))
-const Home = loadable(() => import(/* webpackChunkName: 'Home' */ './pages/Home'))
-const Users = loadable(() => import(/* webpackChunkName: 'Users' */ './pages/Users'))
+const About = loadable(() => import(/* webpackChunkName: 'About', webpackPrefetch: true */ './pages/About'))
+const Home = loadable(() => import(/* webpackChunkName: 'Home', webpackPrefetch: true */ './pages/Home'))
+const Users = loadable(() => import(/* webpackChunkName: 'Users', webpackPrefetch: true */ './pages/Users'))
 
 const App = () => (
     <div>

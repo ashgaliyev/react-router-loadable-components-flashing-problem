@@ -1,13 +1,13 @@
 {
   "errors": [],
   "warnings": [
-    "./node_modules/React/cjs/react.development.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/React/cjs/react.development.js\n    Used by 1 module(s), i. e.\n    /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/React/index.js\n* /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/react/cjs/react.development.js\n    Used by 1 module(s), i. e.\n    /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/react/index.js\n @ ./node_modules/React/cjs/react.development.js\n @ ./node_modules/React/index.js\n @ ./src/client/pages/Users.js\n @ ./src/client/App.js\n @ ./src/client/main-web.js",
-    "./node_modules/React/index.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/React/index.js\n    Used by 6 module(s), i. e.\n    /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/babel-loader/lib/index.js??ref--4!/Users/andreyash/vendor/loadable-components/examples/server-side-rendering/src/client/pages/Users.js\n* /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/react/index.js\n    Used by 71 module(s), i. e.\n    /Users/andreyash/vendor/loadable-components/examples/server-side-rendering/node_modules/babel-loader/lib/index.js??ref--4!/Users/andreyash/vendor/loadable-components/examples/server-side-rendering/src/client/main-web.js\n @ ./node_modules/React/index.js\n @ ./src/client/pages/Users.js\n @ ./src/client/App.js\n @ ./src/client/main-web.js"
+    "./node_modules/React/cjs/react.development.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/andreyash/Development/react-router-loadable-components-flashing-problem/node_modules/React/cjs/react.development.js\n    Used by 1 module(s), i. e.\n    /Users/andreyash/Development/react-router-loadable-components-flashing-problem/node_modules/React/index.js\n* /Users/andreyash/Development/react-router-loadable-components-flashing-problem/node_modules/react/cjs/react.development.js\n    Used by 1 module(s), i. e.\n    /Users/andreyash/Development/react-router-loadable-components-flashing-problem/node_modules/react/index.js\n @ ./node_modules/React/cjs/react.development.js\n @ ./node_modules/React/index.js\n @ ./src/client/pages/Users.js\n @ ./src/client/App.js\n @ ./src/client/main-web.js",
+    "./node_modules/React/index.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* /Users/andreyash/Development/react-router-loadable-components-flashing-problem/node_modules/React/index.js\n    Used by 12 module(s), i. e.\n    /Users/andreyash/Development/react-router-loadable-components-flashing-problem/node_modules/babel-loader/lib/index.js??ref--4!/Users/andreyash/Development/react-router-loadable-components-flashing-problem/src/client/pages/Users.js\n* /Users/andreyash/Development/react-router-loadable-components-flashing-problem/node_modules/react/index.js\n    Used by 71 module(s), i. e.\n    /Users/andreyash/Development/react-router-loadable-components-flashing-problem/node_modules/babel-loader/lib/index.js??ref--4!/Users/andreyash/Development/react-router-loadable-components-flashing-problem/src/client/main-web.js\n @ ./node_modules/React/index.js\n @ ./src/client/pages/Users.js\n @ ./src/client/App.js\n @ ./src/client/main-web.js"
   ],
   "version": "4.41.5",
-  "hash": "f0e124aca29177868e94",
+  "hash": "2bfce6afcc68138a74db",
   "publicPath": "/dist/web/",
-  "outputPath": "/Users/andreyash/vendor/loadable-components/examples/server-side-rendering/public/dist/web",
+  "outputPath": "/Users/andreyash/Development/react-router-loadable-components-flashing-problem/public/dist/web",
   "assetsByChunkName": {
     "About": "About.js",
     "Home": "Home.js",
@@ -21,7 +21,7 @@
   "assets": [
     {
       "name": "About.js",
-      "size": 960,
+      "size": 1559,
       "chunks": [
         "About"
       ],
@@ -33,7 +33,7 @@
     },
     {
       "name": "Home.js",
-      "size": 953,
+      "size": 1552,
       "chunks": [
         "Home"
       ],
@@ -45,7 +45,7 @@
     },
     {
       "name": "Users.js",
-      "size": 960,
+      "size": 1559,
       "chunks": [
         "Users"
       ],
@@ -69,7 +69,7 @@
     },
     {
       "name": "main.js",
-      "size": 2207670,
+      "size": 2208485,
       "chunks": [
         "main"
       ],
@@ -102,8 +102,51 @@
         "main.css",
         "main.js"
       ],
-      "children": {},
-      "childAssets": {}
+      "children": {
+        "prefetch": [
+          {
+            "name": "About",
+            "chunks": [
+              "vendors~About~Home~Users",
+              "About"
+            ],
+            "assets": [
+              "vendors~About~Home~Users.js",
+              "About.js"
+            ]
+          },
+          {
+            "name": "Home",
+            "chunks": [
+              "vendors~About~Home~Users",
+              "Home"
+            ],
+            "assets": [
+              "vendors~About~Home~Users.js",
+              "Home.js"
+            ]
+          },
+          {
+            "name": "Users",
+            "chunks": [
+              "vendors~About~Home~Users",
+              "Users"
+            ],
+            "assets": [
+              "vendors~About~Home~Users.js",
+              "Users.js"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "prefetch": [
+          "vendors~About~Home~Users.js",
+          "About.js",
+          "Home.js",
+          "Users.js"
+        ]
+      }
     }
   },
   "namedChunkGroups": {
@@ -115,8 +158,51 @@
         "main.css",
         "main.js"
       ],
-      "children": {},
-      "childAssets": {}
+      "children": {
+        "prefetch": [
+          {
+            "name": "About",
+            "chunks": [
+              "vendors~About~Home~Users",
+              "About"
+            ],
+            "assets": [
+              "vendors~About~Home~Users.js",
+              "About.js"
+            ]
+          },
+          {
+            "name": "Home",
+            "chunks": [
+              "vendors~About~Home~Users",
+              "Home"
+            ],
+            "assets": [
+              "vendors~About~Home~Users.js",
+              "Home.js"
+            ]
+          },
+          {
+            "name": "Users",
+            "chunks": [
+              "vendors~About~Home~Users",
+              "Users"
+            ],
+            "assets": [
+              "vendors~About~Home~Users.js",
+              "Users.js"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "prefetch": [
+          "vendors~About~Home~Users.js",
+          "About.js",
+          "Home.js",
+          "Users.js"
+        ]
+      }
     },
     "About": {
       "chunks": [
@@ -167,7 +253,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/dist/web/",
-      "outputPath": "/Users/andreyash/vendor/loadable-components/examples/server-side-rendering/public/dist/web",
+      "outputPath": "/Users/andreyash/Development/react-router-loadable-components-flashing-problem/public/dist/web",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,

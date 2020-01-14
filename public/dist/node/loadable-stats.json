@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "4.41.5",
-  "hash": "6c9371271474e7db8f8c",
+  "hash": "cfbad0e6f5f4e1148b9a",
   "publicPath": "/dist/node/",
-  "outputPath": "/Users/andreyash/vendor/loadable-components/examples/server-side-rendering/public/dist/node",
+  "outputPath": "/Users/andreyash/Development/react-router-loadable-components-flashing-problem/public/dist/node",
   "assetsByChunkName": {
     "About": "About.js",
     "Home": "Home.js",
@@ -18,7 +18,7 @@
   "assets": [
     {
       "name": "About.js",
-      "size": 880,
+      "size": 1479,
       "chunks": [
         "About"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "name": "Home.js",
-      "size": 873,
+      "size": 1472,
       "chunks": [
         "Home"
       ],
@@ -42,7 +42,7 @@
     },
     {
       "name": "Users.js",
-      "size": 880,
+      "size": 1479,
       "chunks": [
         "Users"
       ],
@@ -99,8 +99,51 @@
         "main.css",
         "main.js"
       ],
-      "children": {},
-      "childAssets": {}
+      "children": {
+        "prefetch": [
+          {
+            "name": "About",
+            "chunks": [
+              "vendors~About~Home~Users",
+              "About"
+            ],
+            "assets": [
+              "vendors~About~Home~Users.js",
+              "About.js"
+            ]
+          },
+          {
+            "name": "Home",
+            "chunks": [
+              "vendors~About~Home~Users",
+              "Home"
+            ],
+            "assets": [
+              "vendors~About~Home~Users.js",
+              "Home.js"
+            ]
+          },
+          {
+            "name": "Users",
+            "chunks": [
+              "vendors~About~Home~Users",
+              "Users"
+            ],
+            "assets": [
+              "vendors~About~Home~Users.js",
+              "Users.js"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "prefetch": [
+          "vendors~About~Home~Users.js",
+          "About.js",
+          "Home.js",
+          "Users.js"
+        ]
+      }
     }
   },
   "namedChunkGroups": {
@@ -112,8 +155,51 @@
         "main.css",
         "main.js"
       ],
-      "children": {},
-      "childAssets": {}
+      "children": {
+        "prefetch": [
+          {
+            "name": "About",
+            "chunks": [
+              "vendors~About~Home~Users",
+              "About"
+            ],
+            "assets": [
+              "vendors~About~Home~Users.js",
+              "About.js"
+            ]
+          },
+          {
+            "name": "Home",
+            "chunks": [
+              "vendors~About~Home~Users",
+              "Home"
+            ],
+            "assets": [
+              "vendors~About~Home~Users.js",
+              "Home.js"
+            ]
+          },
+          {
+            "name": "Users",
+            "chunks": [
+              "vendors~About~Home~Users",
+              "Users"
+            ],
+            "assets": [
+              "vendors~About~Home~Users.js",
+              "Users.js"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "prefetch": [
+          "vendors~About~Home~Users.js",
+          "About.js",
+          "Home.js",
+          "Users.js"
+        ]
+      }
     },
     "About": {
       "chunks": [
@@ -164,7 +250,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/dist/node/",
-      "outputPath": "/Users/andreyash/vendor/loadable-components/examples/server-side-rendering/public/dist/node",
+      "outputPath": "/Users/andreyash/Development/react-router-loadable-components-flashing-problem/public/dist/node",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
